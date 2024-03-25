@@ -1,0 +1,28 @@
+.titulo
+{    color: #383734;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+
+}
+
+p
+
+{
+    color: blue;
+    height: 200px;
+    font-weight: 200px;
+}
+
+.numero
+{ 
+    color:#e81026
+    height: 300px
+}
+
+body
+{
+    background-color: #e8e410;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}

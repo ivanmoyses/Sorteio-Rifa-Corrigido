@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title class="titulo">Sorteio Rifa </title>
+
+    
+<body>
+
+    <h1>Sorteio Rifa</h1>
+
+    <p class="subtitulo">    O número sorteado é: <span id="numero-sorteado"></span></p>
+  
+    <script class="numero">
+    function sortearNumero() {
+      return Math.floor(Math.random() * 200) + 1;
+    }
+
+    
+    var numeroSorteadoElemento = document.getElementById("numero-sorteado");
+
+   
+    var numeroSorteado = sortearNumero();
+    numeroSorteadoElemento.textContent = numeroSorteado;
+  </script>
+  
+  </body>
+  </html>
+    <script src="app.js"></script>
+    
+</body>
+</html>
